@@ -1,0 +1,11 @@
+version: '2.2'
+services:
+  nexus_repository_apt:
+    build:
+      args:
+        NEXUS_BUILD: "01"
+        NEXUS_VERSION: "3.9.0"
+      context: ./
+    image: nexus_repository_apt:1.0.5-SNAPSHOT
+    volumes:
+      - "${NEXUS_REPOSITORY_APT_TARGET}:/target"

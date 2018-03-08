@@ -8,6 +8,7 @@ target/
 *.ser
 *.ec
 .mvn/timing.properties
+*.jar
 
 # Intellij
 *.ipr
@@ -28,3 +29,4 @@ dependency-reduced-pom.xml
 out
 
 vagrant/.vagrant/
+*~
