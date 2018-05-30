@@ -31,3 +31,4 @@ dependency-reduced-pom.xml
 out
 
 vagrant/.vagrant/
+*~
